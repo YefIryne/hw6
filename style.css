@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Nunito Sans', sans-serif;
+
 }
 .header {
     display: inline-block;
@@ -9,27 +11,166 @@
     height: 81px;
     background-color: #60c1bd;
     border-radius: 100px;
+    overflow: hidden;
 }
 .section1 {
     width: 100%;
     height: 799px;
     background-color: #284854;
     overflow: hidden;
+    text-align: center;
 }
 .MainPage {
-    display: inline-block;
+    display: block;
     color: #fff;
+    font-family: 'Roboto', sans-serif;
     font-size: 30px;
+    float: left;
+    margin: 20px 30px;
 }
 .navigation {
     display: inline-block;
     color: #284854;
     font-size: 18px;
+    float: none;
+    margin: 25px;
 }
 .login {
-    display: inline-block; 
+    display: block; 
     border: 1px solid #fff;
     color: #fff;
     font-size: 14px;
     padding: 5px 20px;
+    float: right;
+    margin-right: 30px;
+}
+.title {
+    display: block;
+    height: 204px;
+    color: #8bc441;
+    font-size: 85px;
+    font-style: normal;
+    font-weight: 400;
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+}
+.pets_1 {
+    display: block;
+    float: right;
+    width: 320px;
+    height: 361px;
+}
+.description {
+    display: block;
+    color: #fff;
+    font-size: 20px;
+    float: left;
+}
+.cards {
+    text-align: center;
+}
+.card {
+    display: inline-block;
+    width: 506px;
+    height: 203px;
+    background-color: #f4f6f0;
+    padding: 35px, 0px, 35px;
+}
+.cardTitle {
+    font-size: 37px;
+    color: #8bc441;
+    float: right;
+}
+.cardDescription {
+    color: #60C1BD;
+    font-size: 20px;
+    float: right;
+}
+.cardImage {
+    margin: 45px 30px;
+}
+.start {
+    text-align: center;
+    font-size: 22px;
+    color: #60C1BD
+}
+.stepsTitle {
+    text-align: center;
+    font-size: 55px;
+    color: #284854;
+}
+.step {
+    font-size: 20px;
+    color: #798B56;
+}
+.stepTitle {
+    color: #8BC441;
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+}
+.stepDescription {
+    font-size: 16px;
+    color: #284854;
+}
+.section2 {
+    width: 100%;
+    height: 601px;
+    background-color: #F4F6F0;
+}
+
+.section3 {
+    width: 100%;
+    height: 438px;
+    background-color: #8BC441;
+}
+.weTitle {
+    font-size: 22px;
+    color: #60C1BD
+}
+.weTitle1 {
+    font-size: 55px;
+    color: #284854;
+}
+.weDescription {
+    font-size: 18px;
+    color: #284854;
+}
+.why {
+    display: inline-block;
+    padding: 8px 4px;
+    font-size: 16px;
+    border: 1px solid #60C1BD;
+    color: #60C1BD;
+}
+.title3 {
+    font-size: 55px;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+.description3 {
+    font-size: 20px;
+    color: #fff;
+}
+.footerTitle {
+    font-size: 13px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #284854;
+}
+.footerLinks {
+    font-size: 13px;
+    color: #60C1BD;
+}
+.footerLinks1 {
+    font-size: 14px;
+    color: #60C1BD;
+}
+.footerLinks2 {
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    color: #60C1BD;
+}
+.footer1 {
+    font-size: 13px;
+    color: #284854;
 }
