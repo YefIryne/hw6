@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header {
+    display: inline-block;
+    width: 1230px;
+    height: 81px;
+    background-color: #60c1bd;
+    border-radius: 100px;
+}
+.section1 {
+    width: 100%;
+    height: 799px;
+    background-color: #284854;
+    overflow: hidden;
+}
+.MainPage {
+    display: inline-block;
+    color: #fff;
+    font-size: 30px;
+}
+.navigation {
+    display: inline-block;
+    color: #284854;
+    font-size: 18px;
+}
+.login {
+    display: inline-block; 
+    border: 1px solid #fff;
+    color: #fff;
+    font-size: 14px;
+    padding: 5px 20px;
+}
