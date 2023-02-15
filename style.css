@@ -3,10 +3,10 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Nunito Sans', sans-serif;
-
 }
 .header {
     display: inline-block;
+    margin-top: 23px;
     width: 1230px;
     height: 81px;
     background-color: #60c1bd;
@@ -34,6 +34,7 @@
     font-size: 18px;
     float: none;
     margin: 25px;
+    overflow: hidden;
 }
 .login {
     display: block; 
@@ -42,14 +43,23 @@
     font-size: 14px;
     padding: 5px 20px;
     float: right;
-    margin-right: 30px;
+    margin: 30px;
+}
+.titleAndDescription {
+    height: 376px;
+    width: 1095px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 119px;
+    margin-bottom: 103px;
 }
 .title {
     display: block;
+    float: left;
+    width: 712px;
     height: 204px;
     color: #8bc441;
     font-size: 85px;
-    font-style: normal;
     font-weight: 400;
     text-align: left;
     font-family: 'Roboto', sans-serif;
@@ -57,24 +67,30 @@
 .pets_1 {
     display: block;
     float: right;
-    width: 320px;
-    height: 361px;
+    margin-top: 42px;
 }
 .description {
     display: block;
     color: #fff;
     font-size: 20px;
     float: left;
+    text-align: left;
+    width: 542px;
+    height: 112px;
+    margin-top: 60px;
 }
 .cards {
     text-align: center;
+    overflow: none;
 }
 .card {
-    display: inline-block;
+    display: block;
+    float: left;
     width: 506px;
     height: 203px;
     background-color: #f4f6f0;
     padding: 35px, 0px, 35px;
+    
 }
 .cardTitle {
     font-size: 37px;
@@ -89,6 +105,10 @@
 .cardImage {
     margin: 45px 30px;
 }
+.main {
+    margin-top: 297px;
+    /* overflow: hidden; */
+}
 .start {
     text-align: center;
     font-size: 22px;
@@ -98,6 +118,32 @@
     text-align: center;
     font-size: 55px;
     color: #284854;
+}
+.steps {
+    margin-top: 143px;
+    overflow: hidden;
+}
+.stepOne {
+    width: 940px;
+    height: 317px;
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: middle;
+}
+.stepTwo {
+    width: 940px;
+    height: 337px;
+    margin-left: auto;
+    margin-right: auto;
+    /* margin-bottom: 98px; */
+    vertical-align: middle;
+}
+.stepThree {
+    width: 940px;
+    height: 299px;
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: middle;
 }
 .step {
     font-size: 20px;
@@ -109,8 +155,18 @@
     font-family: 'Roboto', sans-serif;
 }
 .stepDescription {
+    display: block;
+    text-align: left;
     font-size: 16px;
     color: #284854;
+}
+.stepImage {
+    float: left;
+    margin-right: 130px;
+}
+.stepTwoImage {
+    float: right;
+    margin-left: 175px;
 }
 .section2 {
     width: 100%;
