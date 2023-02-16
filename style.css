@@ -73,6 +73,7 @@
     display: block;
     color: #fff;
     font-size: 20px;
+    line-height: 28px;
     float: left;
     text-align: left;
     width: 542px;
@@ -158,6 +159,7 @@
     display: block;
     text-align: left;
     font-size: 16px;
+    line-height: 29px;
     color: #284854;
 }
 .stepImage {
@@ -173,13 +175,29 @@
     height: 601px;
     background-color: #F4F6F0;
 }
+.section2Content {
+    display: block;
+    width: 1074px;
+    height: 396px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.pets_4 {
+    float: left;
+    margin-top: 83px;
+    margin-right: 112px;
+}
 
 .section3 {
+    margin-top: 11px;
     width: 100%;
     height: 438px;
     background-color: #8BC441;
 }
 .weTitle {
+    display: block;
+    margin-top: 78px;
+    margin-bottom: 5px;
     font-size: 22px;
     color: #60C1BD
 }
@@ -188,7 +206,11 @@
     color: #284854;
 }
 .weDescription {
+    display: block;
+    margin-top: 31px;
+    margin-bottom: 50px;
     font-size: 18px;
+    line-height: 32px;
     color: #284854;
 }
 .why {
@@ -198,14 +220,53 @@
     border: 1px solid #60C1BD;
     color: #60C1BD;
 }
+.section3Content {
+    display: block;
+    width: 1074px;
+    height: 266px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.dog_4 {
+    float: left;
+    margin-top: 88px;
+    margin-right: 165px;
+}
+.section3Text {
+    display: block;
+    padding-top: 86px;
+}
 .title3 {
-    font-size: 55px;
+    display: block;
+    float: left;
+    width: 516px;
+    height: 128px;
     color: #fff;
+    font-size: 55px;
+    font-weight: 400;
+    text-align: left;
     font-family: 'Roboto', sans-serif;
 }
 .description3 {
     font-size: 20px;
+    line-height: 27px;
     color: #fff;
+}
+.description3Content {
+    display: block;
+    margin-top: 57px;
+}
+.first {
+    display: block;
+    width: 239px;
+    height: 81px;
+    float: left;
+}
+.second {
+    display: block;
+    width: 210px;
+    height: 81px;
+    float: right;
 }
 .footerTitle {
     font-size: 13px;
