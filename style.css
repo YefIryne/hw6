@@ -4,6 +4,9 @@
     box-sizing: border-box;
     font-family: 'Nunito Sans', sans-serif;
 }
+a {
+    text-decoration: none;
+}
 .header {
     display: inline-block;
     margin-top: 23px;
@@ -81,29 +84,54 @@
     margin-top: 60px;
 }
 .cards {
-    text-align: center;
-    overflow: none;
+    display: block;
+    height: 203px;
+    width: 1095px;
+    margin-left: auto;
+    margin-right: auto;
 }
-.card {
+.card1 {
     display: block;
     float: left;
     width: 506px;
     height: 203px;
     background-color: #f4f6f0;
     padding: 35px, 0px, 35px;
-    
+    /* overflow: hidden; */
+    margin-right: 83px;
+}
+.card2 {
+    display: block;
+    float: left;
+    width: 506px;
+    height: 203px;
+    background-color: #f4f6f0;
+    padding: 35px, 0px, 35px;
+}
+.cardBlock {
+    display: block;
+    float: right;
+    height: 106px;
+    width: 297px;
+    margin-top: 49px;
+    margin-right: 30px;
 }
 .cardTitle {
+    display: block;
     font-size: 37px;
     color: #8bc441;
-    float: right;
+    font-weight: 400;
+    line-height: 43px;
+    text-align: left;
+    margin-bottom: 9px;
 }
 .cardDescription {
     color: #60C1BD;
     font-size: 20px;
-    float: right;
 }
 .cardImage {
+    display: block;
+    float: left;
     margin: 45px 30px;
 }
 .main {
@@ -130,13 +158,14 @@
     margin-left: auto;
     margin-right: auto;
     vertical-align: middle;
+    margin-bottom: 98px;
 }
 .stepTwo {
     width: 940px;
     height: 337px;
     margin-left: auto;
     margin-right: auto;
-    /* margin-bottom: 98px; */
+    margin-bottom: 93px;
     vertical-align: middle;
 }
 .stepThree {
@@ -145,15 +174,18 @@
     margin-left: auto;
     margin-right: auto;
     vertical-align: middle;
+    margin-bottom: 93px;
 }
 .step {
     font-size: 20px;
     color: #798B56;
+    margin-bottom: 10px;
 }
 .stepTitle {
     color: #8BC441;
     font-size: 40px;
     font-family: 'Roboto', sans-serif;
+    margin-bottom: 15px;
 }
 .stepDescription {
     display: block;
@@ -176,15 +208,21 @@
     background-color: #F4F6F0;
 }
 .section2Content {
-    display: block;
+    display: inline-block;
+    position: relative;
     width: 1074px;
     height: 396px;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 78px;
+}
+.section2Block {
+    display: inline;
 }
 .pets_4 {
+    display: inline;
     float: left;
-    margin-top: 83px;
+    /* margin-top: 83px; */
     margin-right: 112px;
 }
 
@@ -196,7 +234,7 @@
 }
 .weTitle {
     display: block;
-    margin-top: 78px;
+    /* margin-top: 78px; */
     margin-bottom: 5px;
     font-size: 22px;
     color: #60C1BD
@@ -251,10 +289,10 @@
     font-size: 20px;
     line-height: 27px;
     color: #fff;
+    margin-top: 57px;
 }
 .description3Content {
     display: block;
-    margin-top: 57px;
 }
 .first {
     display: block;
@@ -268,6 +306,74 @@
     height: 81px;
     float: right;
 }
+.footer {
+    display: block;
+    margin-top: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 280px;
+    width: 1136px;
+}
+.footerBlock1 {
+    display: block;
+    width: 568px;
+    height: 263px;
+    float: left;
+}
+.footerBlock2 {
+    display: block;
+    margin-top: 71px;
+    width: 568px;
+    height: 23px;
+}
+.footerBlock3 {
+    display: block;
+    height: 154px;
+    width: 568px;
+}
+.footerBlock4 {
+    display: block;
+    float: left;
+    height: 154px;
+    width: 284px;
+}
+.footerBlock5 {
+    display: block;
+    float: right;
+    height: 154px;
+    width: 284px;
+}
+.footerBlock6 {
+    display: block;
+    height: 263px;
+    width: 557px;
+    float: right;
+    margin-left: 22px;
+}
+.footerBlock7 {
+    display: block;
+    float: right;
+    height: 263px;
+    width: 327px;
+}
+.footerContent1 {
+    display: block;
+    margin-top: 25px;
+    width: 241px;
+    height: 140px;
+}
+.footerContent2 {
+    display: block;
+    height: 46px;
+    width: 241px;
+    margin-top: 25px;
+}
+.footerContent {
+    display: block;
+    height: 93px;
+    width: 284px;
+    margin-top: 25px;
+}
 .footerTitle {
     font-size: 13px;
     letter-spacing: 2px;
@@ -277,17 +383,28 @@
 .footerLinks {
     font-size: 13px;
     color: #60C1BD;
+    margin-top: 19px;
 }
 .footerLinks1 {
     font-size: 14px;
-    color: #60C1BD;
+    color: #60C1BD; 
 }
 .footerLinks2 {
     font-size: 16px;
     font-family: 'Roboto', sans-serif;
     color: #60C1BD;
+    margin-top: 4px;
+    height: 19px;
+    width: 189px;
 }
 .footer1 {
     font-size: 13px;
     color: #284854;
+    height: 18px;
+    width: 106px;
+}
+.footerImage {
+    display: block;
+    margin-right: 97px;
+    float: left;
 }
