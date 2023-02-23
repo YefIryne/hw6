@@ -97,8 +97,10 @@ a {
     height: 203px;
     background-color: #f4f6f0;
     padding: 35px, 0px, 35px;
-    /* overflow: hidden; */
     margin-right: 83px;
+    z-index: 1;
+    position: relative;
+    top: -100px;
 }
 .card2 {
     display: block;
@@ -107,6 +109,9 @@ a {
     height: 203px;
     background-color: #f4f6f0;
     padding: 35px, 0px, 35px;
+    z-index: 1;
+    position: relative;
+    top: -100px;
 }
 .cardBlock {
     display: block;
@@ -136,7 +141,6 @@ a {
 }
 .main {
     margin-top: 297px;
-    /* overflow: hidden; */
 }
 .start {
     text-align: center;
@@ -344,15 +348,15 @@ a {
     width: 284px;
 }
 .footerBlock6 {
-    display: block;
+    display: inline;
     height: 263px;
     width: 557px;
-    float: right;
+    /* float: right; */
     margin-left: 22px;
 }
 .footerBlock7 {
-    display: block;
-    float: right;
+    display: inline-block;
+    /* float: right; */
     height: 263px;
     width: 327px;
 }
