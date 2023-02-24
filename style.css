@@ -212,13 +212,14 @@ a {
     background-color: #F4F6F0;
 }
 .section2Content {
-    display: inline-block;
+    display: block;
     position: relative;
     width: 1074px;
     height: 396px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 78px;
+    /* text-align: center; */
 }
 .section2Block {
     display: inline;
