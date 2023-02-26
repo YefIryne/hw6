@@ -140,7 +140,7 @@ a {
     margin: 45px 30px;
 }
 .main {
-    margin-top: 297px;
+    margin-top: 174px;
 }
 .start {
     text-align: center;
@@ -210,6 +210,7 @@ a {
     width: 100%;
     height: 601px;
     background-color: #F4F6F0;
+    overflow: hidden;
 }
 .section2Content {
     display: block;
@@ -219,7 +220,6 @@ a {
     margin-left: auto;
     margin-right: auto;
     margin-top: 78px;
-    /* text-align: center; */
 }
 .section2Block {
     display: inline;
@@ -227,7 +227,6 @@ a {
 .pets_4 {
     display: inline;
     float: left;
-    /* margin-top: 83px; */
     margin-right: 112px;
 }
 
@@ -239,7 +238,6 @@ a {
 }
 .weTitle {
     display: block;
-    /* margin-top: 78px; */
     margin-bottom: 5px;
     font-size: 22px;
     color: #60C1BD
@@ -320,55 +318,51 @@ a {
     width: 1136px;
     margin-bottom: 44px;
 }
-.footerBlock1 {
+.footerBlock {
     display: block;
     width: 568px;
     height: 263px;
     float: left;
 }
-.footerBlock2 {
+.footerBlockLinksNav {
     display: block;
     margin-top: 71px;
     width: 568px;
     height: 23px;
 }
-.footerBlock3 {
+.footerBlockVeterinariansAndHospitals {
     display: block;
     height: 154px;
     width: 568px;
 }
-.footerBlock4 {
+.footerBlockVeterinarians {
     display: block;
     float: left;
     height: 154px;
     width: 284px;
 }
-.footerBlock5 {
+.footerBlockHospitals {
     display: block;
     float: right;
     height: 154px;
     width: 284px;
 }
-.footerBlock6 {
+.footerBlockFindUsAndfooterImage {
     display: inline;
     height: 263px;
     width: 557px;
-    /* float: right; */
-    /* margin-left: 22px; */
 }
-.footerBlock7 {
+.footerBlockFindUs {
     display: block;
     float: right;
-    /* height: 263px;
-    width: 327px; */
 }
-.footerContent1 {
+.footerFindUsContent {
     display: inline-block;
     margin-top: 25px;
     width: 241px;
     height: 140px;
 }
-.footerContent2 {
+.footerFindUsContentTel {
     display: inline-block;
     height: 46px;
     width: 241px;
@@ -391,13 +385,13 @@ a {
     color: #60C1BD;
     margin-top: 19px;
 }
-.footerLinks1 {
+.footerLinksNav {
     display: inline;
     font-size: 14px;
     color: #60C1BD; 
     margin-right: 33px;
 }
-.footerLinks2 {
+.footerFindUsLinks {
     font-size: 16px;
     font-family: 'Roboto', sans-serif;
     color: #60C1BD;
